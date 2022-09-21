@@ -1,24 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>William's Landing Page</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/d606n6k" target="_blank">Github</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+      <nav class="text-right">
+        <ul>
+          <li>
+            <a href="https://github.com/d606n6k" target="_blank">Github</a>
+          </li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- main/contact -->
+    <main>
+      <h1>William's Brand New Landing Page!</h1>
+      <figure>
+        <img
+          src="./assets/images/image-1.png"
+          alt="graphic for coming soon porfolio section"
+        />
+        <figcaption class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi eum
+          optio ipsam molestiae velit deserunt libero minima corrupti odit enim
+          mollitia fuga modi maxime nam minus ullam ipsum, voluptatum esse?
+        </figcaption>
+      </figure>
+      <section id="contact">
+        <h2 class="text-center">Contact Me</h2>
+        <form>
+          <ul>
+            <li>
+                <label class="text-right" for="name">Name:</label>
+                <input type="text" id="name" name="user-name">
+            </li>
+            <li>
+                <label class="text-right" for="email">Email:</label>
+                <input type="text" id="email" name="user-email">
+            </li>
+          <div class="text-center">
+            <button type="submit">Send</button>
+          </div>
+          </ul>
+        </form>
+      </section>
+    </main>
     <!-- footer -->
-</body>
+    <footer class="text-center">
+        © 2022 William Lucht
+    </footer>
+  </body>
 </html>

@@ -1,0 +1,22 @@
+body{
+
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #43c0cc;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
